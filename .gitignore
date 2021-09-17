@@ -1,8 +1,0 @@
-if game.PlaceId==false then
-    wait(0.2) 
-     game.StarterGui:SetCore("SendNotification", {Title="pls wait the anti cheat is load now"; Text="loader"; Duration=1;})
-     wait(3)
-     game.StarterGui:SetCore("SendNotification", {Title="DONE! hope u enjoy"; Text="loader"; Duration=1;})
-     wait (5)
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/ILiveOnVolcano/anti-cheat-every-game/main/.gitignore", true))()
-     end
